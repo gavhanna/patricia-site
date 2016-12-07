@@ -1,10 +1,15 @@
-
 (function(){
 
-  $(".dropdown").on("hover", turnArrow);
+  $(".dropdown").hover(function(){
+    $(this).find("span").toggleClass("spin");
+    console.log("this");
+  });
 
-  function turnArrow(){
-    $(".arrow").toggleClass("spin");
-  }
+  $(".carousel").slick({
+    autoplay: true
+  });
 
 })();
+
+
+// TODO: Fix that fucking carousel

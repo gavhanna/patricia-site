@@ -1,4 +1,6 @@
 @import "_normalize.min";
+@import "_slick";
+@import "_slick-theme";
 
 
 $background-color: #9f9e8c;
@@ -16,13 +18,12 @@ h1, h2 {
   font-weight: 400;
 }
 
-.spin {
-  color: red;
-}
+
 
 #content-wrapper {
   max-width: 900px;
   margin: 0 auto;
+  display: flex;
 }
 a {
   text-decoration: none;
@@ -111,7 +112,6 @@ nav ul {
 .dropdown:hover .dropdown-menu {
   opacity: 1;
   display: flex;
-  //transform: translateY(0px);
 }
 
 
@@ -122,4 +122,21 @@ nav ul {
     font-family: "Lora", serif;
     color: $background-color;
   }
+}
+
+.arrow {
+  display: inline-block;
+  transition: all .2s ease-in-out;
+}
+.spin {
+  opacity: 0;
+}
+
+
+.carousel-wrapper {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  width: 20%;
+  margin: 0 auto;
 }
