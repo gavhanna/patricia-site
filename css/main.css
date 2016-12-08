@@ -355,10 +355,45 @@ h1, h2 {
   font-family: "Lora", serif;
   font-weight: 400; }
 
+#dropdown-button {
+  position: absolute;
+  top: 11px;
+  right: 30px;
+  height: 30px;
+  width: 30px;
+  display: none;
+  flex-direction: column;
+  justify-content: space-around;
+  cursor: pointer;
+  z-index: 100; }
+  #dropdown-button span {
+    transition: all .2s ease-in-out; }
+  #dropdown-button:hover > span {
+    background: #333;
+    transform: scaleX(1.1); }
+  #dropdown-button.become-x span {
+    transform-origin: center; }
+  #dropdown-button.become-x span:nth-child(2) {
+    opacity: 0; }
+  #dropdown-button.become-x span:nth-child(1) {
+    transform: rotate(45deg) translateY(7.5px) translateX(7.5px); }
+  #dropdown-button.become-x span:nth-child(3) {
+    transform: rotate(-45deg) translateY(-7.5px) translateX(7.5px); }
+  #dropdown-button span {
+    height: 2px;
+    width: 100%;
+    margin: auto;
+    background: #666; }
+  @media (max-width: 650px) {
+    #dropdown-button {
+      display: flex;
+      position: fixed; } }
+
 #content-wrapper {
   max-width: 900px;
   margin: 0 auto;
-  display: flex; }
+  display: flex;
+  margin-bottom: 100px; }
 
 a {
   text-decoration: none;
@@ -448,5 +483,57 @@ nav ul {
   display: flex;
   flex-direction: column;
   justify-content: center;
-  width: 20%;
+  max-width: 30%;
   margin: 0 auto; }
+  .carousel-wrapper .carousel {
+    width: 100%; }
+
+.image img {
+  margin: 0 auto;
+  width: 100%;
+  height: auto; }
+
+footer {
+  margin: 20px auto;
+  width: 100vw;
+  text-align: center; }
+
+@media screen and (max-width: 650px) {
+  .navigation {
+    position: fixed;
+    top: 0;
+    width: 100%;
+    z-index: 99;
+    transition: all .3s ease-in-out;
+    transform: translateY(-500px); }
+    .navigation nav ul {
+      flex-direction: column; }
+  .navigation.open {
+    transform: translateY(0px); }
+  .dropdown-menu {
+    text-align: left;
+    max-width: 50%;
+    left: 50%;
+    top: 0;
+    z-index: 10000000; }
+  #top-bar {
+    position: fixed; }
+  .title h1 {
+    position: fixed;
+    top: 0px;
+    color: #ddd;
+    margin: 8px; }
+  nav ul {
+    padding-left: 0;
+    z-index: 100; }
+  nav ul li:first-child {
+    margin-left: 0; }
+  #content-wrapper {
+    flex-direction: column;
+    text-align: center;
+    width: 95vw; }
+    #content-wrapper .text {
+      max-width: 100%;
+      padding: 0; }
+  .carousel-wrapper {
+    max-width: 50%; } }
