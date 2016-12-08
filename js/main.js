@@ -6,7 +6,9 @@
   });
 
   $(".carousel").slick({
-    autoplay: true
+    autoplay: true,
+    fade: true,
+    speed: 1900
   });
 
 })();
