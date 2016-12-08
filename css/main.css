@@ -441,7 +441,6 @@ nav ul {
       background: #333; }
 
 .dropdown-menu {
-  background: #9f9e8c;
   position: absolute;
   flex-direction: column;
   justify-content: center;
@@ -450,11 +449,10 @@ nav ul {
   width: 100%;
   top: 49px;
   left: 0px;
-  background: #333;
-  opacity: 0;
   display: none;
   transition: all .2s ease-in-out; }
   .dropdown-menu > li {
+    background: #333;
     margin: 0; }
     .dropdown-menu > li:first-child {
       margin-left: 0px; }
@@ -462,7 +460,6 @@ nav ul {
       background: #666; }
 
 .dropdown:hover .dropdown-menu {
-  opacity: 1;
   display: flex; }
 
 .text {
@@ -544,3 +541,42 @@ footer {
     left: 10px;
     top: 10px;
     margin: 0; } }
+
+nav ul {
+  background: transparent; }
+
+.dropdown-menu li {
+  opacity: 0;
+  transform-origin: center; }
+  .dropdown-menu li:nth-child(1) {
+    animation-name: dropdown;
+    animation-duration: 400ms;
+    animation-delay: -100ms;
+    animation-fill-mode: forwards;
+    animation-timing-function: ease-in-out; }
+  .dropdown-menu li:nth-child(2) {
+    animation-name: dropdown;
+    animation-duration: 400ms;
+    animation-delay: 0ms;
+    animation-fill-mode: forwards;
+    animation-timing-function: ease-in-out; }
+  .dropdown-menu li:nth-child(3) {
+    animation-name: dropdown;
+    animation-duration: 400ms;
+    animation-delay: 100ms;
+    animation-fill-mode: forwards;
+    animation-timing-function: ease-in-out; }
+  .dropdown-menu li:nth-child(4) {
+    animation-name: dropdown;
+    animation-duration: 400ms;
+    animation-delay: 200ms;
+    animation-fill-mode: forwards;
+    animation-timing-function: ease-in-out; }
+
+@keyframes dropdown {
+  0% {
+    opacity: 0;
+    transform: rotateX(-90deg); }
+  100% {
+    opacity: 1;
+    transform: rotateX(0deg); } }
