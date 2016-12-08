@@ -263,3 +263,14 @@ footer {
   }
 
 }
+
+
+@media screen and (max-width: 420px) {
+  .title h1 {
+    font-size: 1.5rem;
+    left: 10px;
+    top: 10px;
+    margin: 0;
+  }
+
+}
