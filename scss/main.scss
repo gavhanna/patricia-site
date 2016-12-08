@@ -199,7 +199,6 @@ nav ul {
 
 footer {
   margin: 20px auto;
-  width: 100vw;
   text-align: center;
 }
 
@@ -259,7 +258,8 @@ footer {
   }
 
   .carousel-wrapper {
-    max-width: 50%;
+    margin-top: 50px;
+    max-width: 80%;
   }
 
 }

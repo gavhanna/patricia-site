@@ -495,7 +495,6 @@ nav ul {
 
 footer {
   margin: 20px auto;
-  width: 100vw;
   text-align: center; }
 
 @media screen and (max-width: 650px) {
@@ -536,4 +535,5 @@ footer {
       max-width: 100%;
       padding: 0; }
   .carousel-wrapper {
-    max-width: 50%; } }
+    margin-top: 50px;
+    max-width: 80%; } }
