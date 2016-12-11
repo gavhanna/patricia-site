@@ -24,5 +24,8 @@
 
 })();
 
-
-// TODO: Fix that fucking carousel
+$(".swipebox").swipebox();
+$(".gallery").justifiedGallery({
+  rowHeight: 80,
+  lastRow: "justify"
+});

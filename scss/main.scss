@@ -1,6 +1,8 @@
 @import "_normalize.min";
 @import "_slick";
 @import "_slick-theme";
+@import "_swipebox";
+@import "_justifiedGallery.min";
 
 
 $background-color: #9f9e8c;
@@ -90,6 +92,13 @@ a {
   color: #999;
   max-width: 900px;
   margin: 0 auto;
+  > h1 a {
+    transition: all .2s ease-in-out;
+    color: $background-color;
+    &:hover {
+      color: darken( $background-color, 10%);
+    }
+  }
 }
 
 .navigation {
@@ -148,6 +157,7 @@ nav ul {
   //transform: translateY(-200px);
   //opacity: 0;
   transition: all .2s ease-in-out;
+  z-index: 100000;
   > li {
     background: #333;
     margin: 0;
@@ -206,6 +216,31 @@ footer {
   text-align: center;
 }
 
+
+.gallery {
+  margin-top: 50px;
+  display: flex;
+  justify-content: space-around;
+  flex-wrap: wrap;
+}
+
+.thumb-container {
+  //display: flex;
+  //flex-direction: column;
+  //justify-content: center;
+  //max-width: 90px;
+  > a, img {
+    //width: 100%;
+    //height: auto;
+  }
+}
+
+
+
+
+
+// Media Queries
+
 @media screen and (max-width: 650px) {
 
   .navigation {
@@ -246,6 +281,12 @@ footer {
     color: #ddd;
     margin: 5px;
     z-index: 110;
+    > a {
+      color: #eee;
+      &:hover {
+        color: #fff;
+      }
+    }
   }
 
  nav ul {
@@ -273,9 +314,11 @@ footer {
     margin-top: 50px;
     max-width: 80%;
   }
-
 }
 
+.swipebox img {
+  z-index: 1;
+}
 
 @media screen and (max-width: 420px) {
   .title h1 {
