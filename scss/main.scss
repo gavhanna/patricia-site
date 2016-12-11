@@ -29,7 +29,7 @@ h1, h2 {
   flex-direction: column;
   justify-content: space-around;
   cursor: pointer;
-  z-index: 100;
+  z-index: 111;
   span {
     transition: all .2s ease-in-out;
   }
@@ -109,14 +109,18 @@ nav ul {
   display: flex;
   list-style: none;
   background: $background-color;
-  justify-content: space-between;
+  justify-content: space-around;
   li {
     position: relative;
     cursor: pointer;
+    min-width: 18%;
     //margin-right: 40px;
     color: #fff;
     padding: 15px;
     transition: all .2s ease-in-out;
+    @media (min-width: 650px ){
+      text-align: center;
+    }
     &:first-child {
       margin-left: -40px;
     }
@@ -137,7 +141,7 @@ nav ul {
   justify-content: center;
   margin: 0 auto;
   padding: 0;
-  width: 100%;
+  min-width: 100%;
   top: 49px;
   left: 0px;
   display: none;
@@ -211,13 +215,16 @@ footer {
     z-index: 99;
     transition: all .3s ease-in-out;
     transform: translateY(-500px);
+    opacity: 0;
+    box-shadow: 1px 1px 1px 1px #666;
     nav ul {
       flex-direction: column;
     }
   }
 
   .navigation.open {
-    transform: translateY(0px);
+    opacity: 1;
+    transform: translateY(50px);
   }
 
   .dropdown-menu {
@@ -230,13 +237,15 @@ footer {
 
   #top-bar {
     position: fixed;
+    z-index: 110;
   }
 
   .title h1 {
     position: fixed;
     top: 0px;
     color: #ddd;
-    margin: 8px;
+    margin: 5px;
+    z-index: 110;
   }
 
  nav ul {
@@ -254,6 +263,9 @@ footer {
     .text {
       max-width: 100%;
       padding: 0;
+      h2 {
+        margin: 30px;
+      }
     }
   }
 
@@ -283,7 +295,7 @@ nav ul {
 .dropdown-menu li {
   opacity: 0;
   transform-origin: center;
-  @for $i from 1 through 4 {
+  @for $i from 1 through 10 {
     &:nth-child(#{$i}) {
       animation-name: dropdown;
       animation-duration: 400ms;
