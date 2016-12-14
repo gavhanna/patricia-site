@@ -231,6 +231,10 @@ nav ul {
       color: $background-color;
     }
   }
+  @media (max-width: 450px){
+    min-height: calc(100vh - 220px);
+    margin-top: 50px;
+  }
 }
 
 footer {
