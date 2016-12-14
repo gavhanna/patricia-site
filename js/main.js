@@ -27,5 +27,5 @@
 $(".swipebox").swipebox();
 $(".gallery").justifiedGallery({
   rowHeight: 80,
-  lastRow: "justify"
+  lastRow: "center"
 });
