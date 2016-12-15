@@ -7,8 +7,8 @@
 
 $background-color: #9f9e8c;
 
-// font-family: 'Lato', sans-serif;
-// font-family: 'Lora', serif;
+/* font-family: 'Lato', sans-serif;*/
+/* font-family: 'Lora', serif;*/
 
 body {
   color: #666;
@@ -20,7 +20,7 @@ h1, h2 {
   font-weight: 400;
 }
 
-// dropdown button
+/* dropdown button*/
 #dropdown-button {
   position: absolute;
   top: 9px;
@@ -28,30 +28,39 @@ h1, h2 {
   height: 30px;
   width: 30px;
   display: none;
-  flex-direction: column;
-  justify-content: space-around;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  -ms-flex-pack: distribute;
+      justify-content: space-around;
   cursor: pointer;
   z-index: 111;
   span {
+    -webkit-transition: all .2s ease-in-out;
     transition: all .2s ease-in-out;
   }
   &:hover > span {
     background: #333;
-    transform: scaleX(1.1);
+    -webkit-transform: scaleX(1.1);
+            transform: scaleX(1.1);
   }
   &.become-x {
     span {
-      transform-origin: center;
+      -webkit-transform-origin: center;
+              transform-origin: center;
     }
     span:nth-child(2){
       opacity: 0;
     }
     span:nth-child(1) {
-      transform: rotate(45deg) translateY(7.5px) translateX(7.5px);
+      -webkit-transform: rotate(45deg) translateY(7.5px) translateX(7.5px);
+              transform: rotate(45deg) translateY(7.5px) translateX(7.5px);
 
     }
     span:nth-child(3) {
-      transform: rotate(-45deg) translateY(-7.5px) translateX(7.5px)
+      -webkit-transform: rotate(-45deg) translateY(-7.5px) translateX(7.5px);
+              transform: rotate(-45deg) translateY(-7.5px) translateX(7.5px)
     }
   }
   span {
@@ -61,6 +70,8 @@ h1, h2 {
     background: #666;
   }
   @media (max-width: 650px) {
+    display: -webkit-box;
+    display: -ms-flexbox;
     display: flex;
     position: fixed;
   }
@@ -71,6 +82,8 @@ h1, h2 {
 #content-wrapper {
   max-width: 900px;
   margin: 0 auto;
+  display: -webkit-box;
+  display: -ms-flexbox;
   display: flex;
   margin-bottom: 100px;
 }
@@ -93,6 +106,7 @@ a {
   max-width: 900px;
   margin: 0 auto;
   > h1 a {
+    -webkit-transition: all .2s ease-in-out;
     transition: all .2s ease-in-out;
     color: $background-color;
     &:hover {
@@ -115,17 +129,21 @@ nav{
 nav ul {
   margin-top: 0;
   font-family: 'Lato', sans-serif;
+  display: -webkit-box;
+  display: -ms-flexbox;
   display: flex;
   list-style: none;
   background: $background-color;
-  justify-content: space-around;
+  -ms-flex-pack: distribute;
+      justify-content: space-around;
   li {
     position: relative;
     cursor: pointer;
     min-width: 18%;
-    //margin-right: 40px;
+    /*margin-right: 40px;*/
     color: #fff;
     padding: 15px;
+    -webkit-transition: all .2s ease-in-out;
     transition: all .2s ease-in-out;
     @media (min-width: 650px ){
       text-align: center;
@@ -144,18 +162,24 @@ nav ul {
 
 
 .dropdown-menu {
-  //background: $background-color;
+  /*background: $background-color;*/
   position: absolute;
-  flex-direction: column;
-  justify-content: center;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
   margin: 0 auto;
   padding: 0;
   min-width: 100%;
   top: 49px;
   left: 0px;
   display: none;
-  //transform: translateY(-200px);
-  //opacity: 0;
+  /*transform: translateY(-200px);*/
+  /*opacity: 0;*/
+  -webkit-transition: all .2s ease-in-out;
   transition: all .2s ease-in-out;
   z-index: 100000;
   > li {
@@ -177,7 +201,9 @@ nav ul {
 }
 
 .dropdown:hover .dropdown-menu {
-  //opacity: 1;
+  /*opacity: 1;*/
+  display: -webkit-box;
+  display: -ms-flexbox;
   display: flex;
 }
 
@@ -193,6 +219,7 @@ nav ul {
 
 .arrow {
   display: inline-block;
+  -webkit-transition: all .2s ease-in-out;
   transition: all .2s ease-in-out;
 }
 .spin {
@@ -201,9 +228,16 @@ nav ul {
 
 
 .carousel-wrapper {
+  display: -webkit-box;
+  display: -ms-flexbox;
   display: flex;
-  flex-direction: column;
-  justify-content: center;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
   max-width: 30%;
   margin: 0 auto;
   .carousel {
@@ -218,14 +252,22 @@ nav ul {
 }
 
 .contact {
+  display: -webkit-box;
+  display: -ms-flexbox;
   display: flex;
-  flex-direction: column;
-  justify-content: center;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
   text-align: center;
   min-width: 100%;
   min-height: calc(100vh - 380px);
   > a {
     color: #666;
+    -webkit-transition: all .2s ease-in-out;
     transition: all .2s ease-in-out;
     &:hover {
       color: $background-color;
@@ -245,19 +287,23 @@ footer {
 
 .gallery {
   margin-top: 50px;
+  display: -webkit-box;
+  display: -ms-flexbox;
   display: flex;
-  justify-content: space-around;
-  flex-wrap: wrap;
+  -ms-flex-pack: distribute;
+      justify-content: space-around;
+  -ms-flex-wrap: wrap;
+      flex-wrap: wrap;
 }
 
 .thumb-container {
-  //display: flex;
-  //flex-direction: column;
-  //justify-content: center;
-  //max-width: 90px;
+  /*display: flex;*/
+  /*flex-direction: column;*/
+  /*justify-content: center;*/
+  /*max-width: 90px;*/
   > a, img {
-    //width: 100%;
-    //height: auto;
+    /*width: 100%;*/
+    /*height: auto;*/
   }
 }
 
@@ -265,7 +311,7 @@ footer {
 
 
 
-// Media Queries
+/* Media Queries*/
 
 @media screen and (max-width: 650px) {
 
@@ -274,18 +320,24 @@ footer {
     top: 0;
     width: 100%;
     z-index: 99;
+    -webkit-transition: all .3s ease-in-out;
     transition: all .3s ease-in-out;
-    transform: translateY(-500px);
+    -webkit-transform: translateY(-500px);
+            transform: translateY(-500px);
     opacity: 0;
     box-shadow: 1px 1px 1px 1px #666;
     nav ul {
-      flex-direction: column;
+      -webkit-box-orient: vertical;
+      -webkit-box-direction: normal;
+          -ms-flex-direction: column;
+              flex-direction: column;
     }
   }
 
   .navigation.open {
     opacity: 1;
-    transform: translateY(50px);
+    -webkit-transform: translateY(50px);
+            transform: translateY(50px);
   }
 
   .dropdown-menu {
@@ -324,7 +376,10 @@ footer {
   }
 
   #content-wrapper {
-    flex-direction: column;
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+        -ms-flex-direction: column;
+            flex-direction: column;
     text-align: center;
     width: 95vw;
     .text {
@@ -363,25 +418,46 @@ nav ul {
 
 .dropdown-menu li {
   opacity: 0;
-  transform-origin: center;
+  -webkit-transform-origin: center;
+          transform-origin: center;
   @for $i from 1 through 15 {
     &:nth-child(#{$i}) {
-      animation-name: dropdown;
-      animation-duration: 100ms;
-      animation-delay: (25ms * $i) - 50;
-      animation-fill-mode: forwards;
-      animation-timing-function: ease-in-out;
+      -webkit-animation-name: dropdown;
+              animation-name: dropdown;
+      -webkit-animation-duration: 100ms;
+              animation-duration: 100ms;
+      -webkit-animation-delay: (25ms * $i) - 50;
+              animation-delay: (25ms * $i) - 50;
+      -webkit-animation-fill-mode: forwards;
+              animation-fill-mode: forwards;
+      -webkit-animation-timing-function: ease-in-out;
+              animation-timing-function: ease-in-out;
     }
+  }
+}
+
+@-webkit-keyframes dropdown {
+  0% {
+    opacity: 0;
+    -webkit-transform: rotateX(-90deg);
+            transform: rotateX(-90deg);
+  }
+  100% {
+    opacity: 1;
+    -webkit-transform: rotateX(0deg);
+            transform: rotateX(0deg);
   }
 }
 
 @keyframes dropdown {
   0% {
     opacity: 0;
-    transform: rotateX(-90deg);
+    -webkit-transform: rotateX(-90deg);
+            transform: rotateX(-90deg);
   }
   100% {
     opacity: 1;
-    transform: rotateX(0deg);
+    -webkit-transform: rotateX(0deg);
+            transform: rotateX(0deg);
   }
 }
