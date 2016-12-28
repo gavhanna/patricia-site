@@ -27,71 +27,74 @@
     <p class="browserupgrade">You are using an <strong>outdated</strong> browser. Please <a href="http://browsehappy.com/">upgrade your browser</a> to improve your experience.</p>
     <![endif]-->
 
-    <script>
-    $(function(){
-      $("#title-wrapper").load("header.html");
-    });
-    </script>
+    <?php include ("header.php"); ?>
     <div id="title-wrapper"></div>
 
     <div id="content-wrapper">
       <div class="text welcome-text">
-        <h2>BETWEEN THE LINES</h2>
-        <p>Installation mixed - media Thisisnotashop Dublin.</p>
+        <h2>JOURNEY</h2>
+        <p>Journey is a series of pieces exploring the forces and movements that shape us and help us understand our personal and cultural identity.<p>
+        <p>This is a continuation of the work done during the Soil project. "Journey", continuing from "Soil", questions the forces and movements that shape us and help us understand our personal and cultural identity.</p>
+        <p>The body of work "Journey" began in the Rockefeller Center in Bellagio in Italy when labelled soil from Ireland was placed there.</p>
         <div class="gallery">
           <div class="thumb-container">
-            <a href="img/between1.jpg" class="swipebox">
-              <img src="img/between1.jpg" alt="">
+            <a href="img/journey1.jpg" class="swipebox">
+              <img src="img/journey1.jpg" alt="">
             </a>
           </div>
           <div class="thumb-container">
-            <a href="img/between2.jpg" class="swipebox">
-              <img src="img/between2.jpg" alt="">
+            <a href="img/journey2.jpg" class="swipebox">
+              <img src="img/journey2.jpg" alt="">
             </a>
           </div>
           <div class="thumb-container">
-            <a href="img/between3.jpg" class="swipebox">
-              <img src="img/between3.jpg" alt="">
+            <a href="img/journey3.jpg" class="swipebox">
+              <img src="img/journey3.jpg" alt="">
             </a>
           </div>
           <div class="thumb-container">
-            <a href="img/between4.jpg" class="swipebox">
-              <img src="img/between4.jpg" alt="">
+            <a href="img/journey4.jpg" class="swipebox">
+              <img src="img/journey4.jpg" alt="">
             </a>
           </div>
           <div class="thumb-container">
-            <a href="img/between5.jpg" class="swipebox">
-              <img src="img/between5.jpg" alt="">
+            <a href="img/journey5.jpg" class="swipebox">
+              <img src="img/journey5.jpg" alt="">
             </a>
           </div>
           <div class="thumb-container">
-            <a href="img/between6.jpg" class="swipebox">
-              <img src="img/between6.jpg" alt="">
+            <a href="img/journey6.jpg" class="swipebox">
+              <img src="img/journey6.jpg" alt="">
             </a>
           </div>
           <div class="thumb-container">
-            <a href="img/between7.jpg" class="swipebox">
-              <img src="img/between7.jpg" alt="">
+            <a href="img/journey7.jpg" class="swipebox">
+              <img src="img/journey7.jpg" alt="">
             </a>
           </div>
           <div class="thumb-container">
-            <a href="img/between8.jpg" class="swipebox">
-              <img src="img/between8.jpg" alt="">
+            <a href="img/journey8.jpg" class="swipebox">
+              <img src="img/journey8.jpg" alt="">
             </a>
           </div>
           <div class="thumb-container">
-            <a href="img/between9.jpg" class="swipebox">
-              <img src="img/between9.jpg" alt="">
+            <a href="img/journey9.jpg" class="swipebox">
+              <img src="img/journey9.jpg" alt="">
             </a>
           </div>
           <div class="thumb-container">
-            <a href="img/between10.jpg" class="swipebox">
-              <img src="img/between10.jpg" alt="">
+            <a href="img/journey10.jpg" class="swipebox">
+              <img src="img/journey10.jpg" alt="">
             </a>
           </div>
           <div class="thumb-container">
-            <a href="img/between11.jpg" class="swipebox">
-              <img src="img/between11.jpg" alt="">
+            <a href="img/journey11.jpg" class="swipebox">
+              <img src="img/journey11.jpg" alt="">
+            </a>
+          </div>
+          <div class="thumb-container">
+            <a href="img/journey12.jpg" class="swipebox">
+              <img src="img/journey12.jpg" alt="">
             </a>
           </div>
         </div>
@@ -99,37 +102,40 @@
       <div class="carousel-wrapper">
         <div class="carousel">
           <div class="image">
-            <img src="img/between1.jpg" alt="">
+            <img src="img/journey1.jpg" alt="">
           </div>
           <div class="image">
-            <img src="img/between2.jpg" alt="">
+            <img src="img/journey2.jpg" alt="">
           </div>
           <div class="image">
-            <img src="img/between3.jpg" alt="">
+            <img src="img/journey3.jpg" alt="">
           </div>
           <div class="image">
-            <img src="img/between4.jpg" alt="">
+            <img src="img/journey4.jpg" alt="">
           </div>
           <div class="image">
-            <img src="img/between5.jpg" alt="">
+            <img src="img/journey5.jpg" alt="">
           </div>
           <div class="image">
-            <img src="img/between6.jpg" alt="">
+            <img src="img/journey6.jpg" alt="">
           </div>
           <div class="image">
-            <img src="img/between7.jpg" alt="">
+            <img src="img/journey7.jpg" alt="">
           </div>
           <div class="image">
-            <img src="img/between8.jpg" alt="">
+            <img src="img/journey8.jpg" alt="">
           </div>
           <div class="image">
-            <img src="img/between9.jpg" alt="">
+            <img src="img/journey9.jpg" alt="">
           </div>
           <div class="image">
-            <img src="img/between10.jpg" alt="">
+            <img src="img/journey10.jpg" alt="">
           </div>
           <div class="image">
-            <img src="img/between11.jpg" alt="">
+            <img src="img/journey11.jpg" alt="">
+          </div>
+          <div class="image">
+            <img src="img/journey12.jpg" alt="">
           </div>
         </div>
       </div>

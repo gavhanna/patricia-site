@@ -27,53 +27,67 @@
     <p class="browserupgrade">You are using an <strong>outdated</strong> browser. Please <a href="http://browsehappy.com/">upgrade your browser</a> to improve your experience.</p>
     <![endif]-->
 
-    <script>
-    $(function(){
-      $("#title-wrapper").load("header.html");
-    });
-    </script>
+    <?php include ("header.php"); ?>
     <div id="title-wrapper"></div>
 
     <div id="content-wrapper">
       <div class="text welcome-text">
-        <h2>PUBLIC COMMISSIONS</h2>
-        <p>Public art Commissions include Dublin City Council, South County Dublin County Council, Dun Laoghaire/Rathdown County Council.</p>
-        <p style="text-decoration:underline;font-weight:900">Following Images</p>
-        <p><i>Lifelines</i>, Olympic Park. Rathcoole. South Dublin County Council.
-        <p><i>Birthday Alignment</i>, Rathsallagh. Dun Laoghaire/Rathdown County Council.</p>
-        <p><i>Reflections</i>, Donnycarney. Dublin City Council.</p>
-        <p><i>Seachange</i>, Dun Laoghaire/Rathdown County Council.</p>
-        <p style="text-decoration:underline;font-weight:900">Photographic acknowledgements</p>
-        <p>Anne-Marie Walker, Mark Boland, Stewart Smyth, Terry Farrell and Jim Mansfield.</p>
+        <h2>ROOT AND BRANCH</h2>
+        <p>Group show, with Monica Flynn, Aine Ivers, curated by Earca Productions. Studio 6 Temple Bar Gallery and Studios, part of IADT MA Visual Art Practices, Summer Series.</p>
         <div class="gallery">
           <div class="thumb-container">
-            <a href="img/curious1.jpg" class="swipebox">
-              <img src="img/curious1.jpg" alt="">
+            <a href="img/root1.jpg" class="swipebox">
+              <img src="img/root1.jpg" alt="">
             </a>
           </div>
           <div class="thumb-container">
-            <a href="img/curious2.jpg" class="swipebox">
-              <img src="img/curious2.jpg" alt="">
+            <a href="img/root2.jpg" class="swipebox">
+              <img src="img/root2.jpg" alt="">
             </a>
           </div>
           <div class="thumb-container">
-            <a href="img/curious3.jpg" class="swipebox">
-              <img src="img/curious3.jpg" alt="">
+            <a href="img/root3.jpg" class="swipebox">
+              <img src="img/root3.jpg" alt="">
             </a>
           </div>
           <div class="thumb-container">
-            <a href="img/curious4.jpg" class="swipebox">
-              <img src="img/curious4.jpg" alt="">
+            <a href="img/root4.jpg" class="swipebox">
+              <img src="img/root4.jpg" alt="">
             </a>
           </div>
           <div class="thumb-container">
-            <a href="img/curious5.jpg" class="swipebox">
-              <img src="img/curious5.jpg" alt="">
+            <a href="img/root5.jpg" class="swipebox">
+              <img src="img/root5.jpg" alt="">
             </a>
           </div>
           <div class="thumb-container">
-            <a href="img/curious6.jpg" class="swipebox">
-              <img src="img/curious6.jpg" alt="">
+            <a href="img/root6.jpg" class="swipebox">
+              <img src="img/root6.jpg" alt="">
+            </a>
+          </div>
+          <div class="thumb-container">
+            <a href="img/root7.jpg" class="swipebox">
+              <img src="img/root7.jpg" alt="">
+            </a>
+          </div>
+          <div class="thumb-container">
+            <a href="img/root8.jpg" class="swipebox">
+              <img src="img/root8.jpg" alt="">
+            </a>
+          </div>
+          <div class="thumb-container">
+            <a href="img/root9.jpg" class="swipebox">
+              <img src="img/root9.jpg" alt="">
+            </a>
+          </div>
+          <div class="thumb-container">
+            <a href="img/root10.jpg" class="swipebox">
+              <img src="img/root10.jpg" alt="">
+            </a>
+          </div>
+          <div class="thumb-container">
+            <a href="img/root11.jpg" class="swipebox">
+              <img src="img/root11.jpg" alt="">
             </a>
           </div>
         </div>
@@ -81,22 +95,37 @@
       <div class="carousel-wrapper">
         <div class="carousel">
           <div class="image">
-            <img src="img/curious1.jpg" alt="">
+            <img src="img/root1.jpg" alt="">
           </div>
           <div class="image">
-            <img src="img/curious2.jpg" alt="">
+            <img src="img/root2.jpg" alt="">
           </div>
           <div class="image">
-            <img src="img/curious3.jpg" alt="">
+            <img src="img/root3.jpg" alt="">
           </div>
           <div class="image">
-            <img src="img/curious4.jpg" alt="">
+            <img src="img/root4.jpg" alt="">
           </div>
           <div class="image">
-            <img src="img/curious5.jpg" alt="">
+            <img src="img/root5.jpg" alt="">
           </div>
           <div class="image">
-            <img src="img/curious6.jpg" alt="">
+            <img src="img/root6.jpg" alt="">
+          </div>
+          <div class="image">
+            <img src="img/root7.jpg" alt="">
+          </div>
+          <div class="image">
+            <img src="img/root8.jpg" alt="">
+          </div>
+          <div class="image">
+            <img src="img/root9.jpg" alt="">
+          </div>
+          <div class="image">
+            <img src="img/root10.jpg" alt="">
+          </div>
+          <div class="image">
+            <img src="img/root11.jpg" alt="">
           </div>
         </div>
       </div>

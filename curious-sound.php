@@ -27,62 +27,66 @@
     <p class="browserupgrade">You are using an <strong>outdated</strong> browser. Please <a href="http://browsehappy.com/">upgrade your browser</a> to improve your experience.</p>
     <![endif]-->
 
-    <script>
-    $(function(){
-      $("#title-wrapper").load("header.html");
-    });
-    </script>
+    <?php include ("header.php"); ?>
     <div id="title-wrapper"></div>
 
     <div id="content-wrapper">
       <div class="text welcome-text">
-        <h2>TAKE HOLD</h2>
-        <p>This show in the Bluewall Gallery County Cavan looked at how we are shaped by place and create our own Landscapes both internal and external. The gallery space contained what appeared to be a tree hanging upside down but in fact it consisted of a number of different materials including drawings, steel, thread and branches from a number of different sources including willow. A short video and a series of drawings and small sculptures completed the installation.</p>
+        <h2>CURIOUS SOUND</h2>
+        <p>Part of Cavan Re-Imagined Happenings, which was in response to the work of the Architects in Residence Project.</p>
+        <p>This work consisted of a sound piece and the creation of a forest in an alleyway in Cavan Town. Commissioned by Arts Office Cavan County Council.</p>
         <div class="gallery">
           <div class="thumb-container">
-            <a href="img/takehold1.jpg" class="swipebox">
-              <img src="img/takehold1.jpg" alt="">
+            <a href="img/curious1.jpg" class="swipebox">
+              <img src="img/curious1.jpg" alt="">
             </a>
           </div>
           <div class="thumb-container">
-            <a href="img/takehold2.jpg" class="swipebox">
-              <img src="img/takehold2.jpg" alt="">
+            <a href="img/curious2.jpg" class="swipebox">
+              <img src="img/curious2.jpg" alt="">
             </a>
           </div>
           <div class="thumb-container">
-            <a href="img/takehold3.jpg" class="swipebox">
-              <img src="img/takehold3.jpg" alt="">
+            <a href="img/curious3.jpg" class="swipebox">
+              <img src="img/curious3.jpg" alt="">
             </a>
           </div>
           <div class="thumb-container">
-            <a href="img/takehold4.jpg" class="swipebox">
-              <img src="img/takehold4.jpg" alt="">
+            <a href="img/curious4.jpg" class="swipebox">
+              <img src="img/curious4.jpg" alt="">
             </a>
           </div>
           <div class="thumb-container">
-            <a href="img/takehold5.jpg" class="swipebox">
-              <img src="img/takehold5.jpg" alt="">
+            <a href="img/curious5.jpg" class="swipebox">
+              <img src="img/curious5.jpg" alt="">
+            </a>
+          </div>
+          <div class="thumb-container">
+            <a href="img/curious6.jpg" class="swipebox">
+              <img src="img/curious6.jpg" alt="">
             </a>
           </div>
         </div>
-
       </div>
       <div class="carousel-wrapper">
         <div class="carousel">
           <div class="image">
-            <img src="img/takehold1.jpg" alt="">
+            <img src="img/curious1.jpg" alt="">
           </div>
           <div class="image">
-            <img src="img/takehold2.jpg" alt="">
+            <img src="img/curious2.jpg" alt="">
           </div>
           <div class="image">
-            <img src="img/takehold3.jpg" alt="">
+            <img src="img/curious3.jpg" alt="">
           </div>
           <div class="image">
-            <img src="img/takehold4.jpg" alt="">
+            <img src="img/curious4.jpg" alt="">
           </div>
           <div class="image">
-            <img src="img/takehold5.jpg" alt="">
+            <img src="img/curious5.jpg" alt="">
+          </div>
+          <div class="image">
+            <img src="img/curious6.jpg" alt="">
           </div>
         </div>
       </div>

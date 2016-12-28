@@ -27,31 +27,38 @@
     <p class="browserupgrade">You are using an <strong>outdated</strong> browser. Please <a href="http://browsehappy.com/">upgrade your browser</a> to improve your experience.</p>
     <![endif]-->
 
-    <script>
-    $(function(){
-      $("#title-wrapper").load("header.html");
-    });
-    </script>
+    <?php include ("header.php"); ?>
     <div id="title-wrapper"></div>
 
     <div id="content-wrapper">
       <div class="text welcome-text">
-        <h2>I SPY</h2>
-        <p>Courtyard, Burren College of Art 2012.</p>
+        <h2>CARGO</h2>
+        <p>Group Show <em>Bád</em>.</p>
+        <p>Curated by Fergus Murphy, Damer House Gallery, Roscrea, County Offaly 2016.</p>
         <div class="gallery">
           <div class="thumb-container">
-            <a href="img/ispy.jpg" class="swipebox">
-              <img src="img/ispy.jpg" alt="">
+            <a href="img/cargobig1.jpg" class="swipebox">
+              <img src="img/cargo1.jpg" alt="">
+            </a>
+          </div>
+          <div class="thumb-container">
+            <a href="img/cargobig2.jpg" class="swipebox">
+              <img src="img/cargo2.jpg" alt="">
+            </a>
+          </div>
+          <div class="thumb-container">
+            <a href="img/cargobig3.jpg" class="swipebox">
+              <img src="img/cargo3.jpg" alt="">
             </a>
           </div>
         </div>
       </div>
       <div class="carousel-wrapper">
-        <!-- <div class="carousel">
-          <div class="image">
-            <img src="img/ispy.jpg" alt="">
-          </div>
-        </div> -->
+        <div class="carousel">
+          <div class="image"><img src="img/cargo1.jpg" alt=""></div>
+          <div class="image"><img src="img/cargo2.jpg" alt=""></div>
+          <div class="image"><img src="img/cargo3.jpg" alt=""></div>
+        </div>
       </div>
     </div>
     <footer>&copy; Patricia McKenna 2016/2017</footer>

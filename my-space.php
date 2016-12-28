@@ -27,46 +27,42 @@
     <p class="browserupgrade">You are using an <strong>outdated</strong> browser. Please <a href="http://browsehappy.com/">upgrade your browser</a> to improve your experience.</p>
     <![endif]-->
 
-    <script>
-    $(function(){
-      $("#title-wrapper").load("header.html");
-    });
-    </script>
+    <?php include ("header.php"); ?>
     <div id="title-wrapper"></div>
 
     <div id="content-wrapper">
       <div class="text welcome-text">
-        <h2>LIVING LANDSCAPE</h2>
-        <p>Ireland and Catalunya - Spain Exhibition and Symposium. West Cork Arts Centre, and artist residency West Cork.</p>
+        <h2>MY SPACE</h2>
+        <p>Group show curated project by Cecilia Moore commissioned by Breaking Ground, Civic Centre Ballymun.</p>
         <div class="gallery">
           <div class="thumb-container">
-            <a href="img/lyinglandscape1.jpg" class="swipebox">
-              <img src="img/lyinglandscape1.jpg" alt="">
+            <a href="img/myspace1.jpg" class="swipebox">
+              <img src="img/myspace1.jpg" alt="">
             </a>
           </div>
           <div class="thumb-container">
-            <a href="img/lyinglandscape2.jpg" class="swipebox">
-              <img src="img/lyinglandscape2.jpg" alt="">
+            <a href="img/myspace2.jpg" class="swipebox">
+              <img src="img/myspace2.jpg" alt="">
             </a>
           </div>
           <div class="thumb-container">
-            <a href="img/lyinglandscape3.jpg" class="swipebox">
-              <img src="img/lyinglandscape3.jpg" alt="">
+            <a href="img/myspace3.jpg" class="swipebox">
+              <img src="img/myspace3.jpg" alt="">
             </a>
           </div>
           <div class="thumb-container">
-            <a href="img/lyinglandscape4.jpg" class="swipebox">
-              <img src="img/lyinglandscape4.jpg" alt="">
+            <a href="img/myspace4.jpg" class="swipebox">
+              <img src="img/myspace4.jpg" alt="">
             </a>
           </div>
           <div class="thumb-container">
-            <a href="img/lyinglandscape5.jpg" class="swipebox">
-              <img src="img/lyinglandscape5.jpg" alt="">
+            <a href="img/myspace5.jpg" class="swipebox">
+              <img src="img/myspace5.jpg" alt="">
             </a>
           </div>
           <div class="thumb-container">
-            <a href="img/lyinglandscape6.jpg" class="swipebox">
-              <img src="img/lyinglandscape6.jpg" alt="">
+            <a href="img/myspace6.jpg" class="swipebox">
+              <img src="img/myspace6.jpg" alt="">
             </a>
           </div>
         </div>
@@ -74,22 +70,22 @@
       <div class="carousel-wrapper">
         <div class="carousel">
           <div class="image">
-            <img src="img/lyinglandscape1.jpg" alt="">
+            <img src="img/myspace1.jpg" alt="">
           </div>
           <div class="image">
-            <img src="img/lyinglandscape2.jpg" alt="">
+            <img src="img/myspace2.jpg" alt="">
           </div>
           <div class="image">
-            <img src="img/lyinglandscape3.jpg" alt="">
+            <img src="img/myspace3.jpg" alt="">
           </div>
           <div class="image">
-            <img src="img/lyinglandscape4.jpg" alt="">
+            <img src="img/myspace4.jpg" alt="">
           </div>
           <div class="image">
-            <img src="img/lyinglandscape5.jpg" alt="">
+            <img src="img/myspace5.jpg" alt="">
           </div>
           <div class="image">
-            <img src="img/lyinglandscape6.jpg" alt="">
+            <img src="img/myspace6.jpg" alt="">
           </div>
         </div>
       </div>

@@ -27,43 +27,27 @@
     <p class="browserupgrade">You are using an <strong>outdated</strong> browser. Please <a href="http://browsehappy.com/">upgrade your browser</a> to improve your experience.</p>
     <![endif]-->
 
-    <script>
-    $(function(){
-      $("#title-wrapper").load("header.html");
-    });
-    </script>
+    <?php include ("header.php"); ?>
     <div id="title-wrapper"></div>
 
     <div id="content-wrapper">
       <div class="text welcome-text">
-        <h2>ECHOS OF SWANLINBAR</h2>
-        <p>Was the first of the series Marking the Land.<p>
-        <p>This work was held in the community hall in Swanlinbar, County Cavan.</p>
-        <p>The work consisted of large scale drawings and paintings based on the theme of my family connections on both sides to Swanlinbar.</p>
+        <h2>OUT OF THE BLUE</h2>
+        <p>Mixed media RHA, 2016.</p>
         <div class="gallery">
           <div class="thumb-container">
-            <a href="img/echos1.jpg" class="swipebox">
-              <img src="img/echos1.jpg" alt="">
-            </a>
-          </div>
-          <div class="thumb-container">
-            <a href="img/echos2.jpg" class="swipebox">
-              <img src="img/echos2.jpg" alt="">
-            </a>
-          </div>
-          <div class="thumb-container">
-            <a href="img/echos3.jpg" class="swipebox">
-              <img src="img/echos3.jpg" alt="">
+            <a href="img/outoftheblue.jpg" class="swipebox">
+              <img src="img/outoftheblue.jpg" alt="">
             </a>
           </div>
         </div>
       </div>
       <div class="carousel-wrapper">
-        <div class="carousel">
-          <div class="image"><img src="img/echos1.jpg" alt=""></div>
-          <div class="image"><img src="img/echos2.jpg" alt=""></div>
-          <div class="image"><img src="img/echos3.jpg" alt=""></div>
-        </div>
+        <!-- <div class="carousel">
+          <div class="image">
+            <img src="img/outoftheblue.jpg" alt="">
+          </div>
+        </div> -->
       </div>
     </div>
     <footer>&copy; Patricia McKenna 2016/2017</footer>

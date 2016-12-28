@@ -27,18 +27,44 @@
     <p class="browserupgrade">You are using an <strong>outdated</strong> browser. Please <a href="http://browsehappy.com/">upgrade your browser</a> to improve your experience.</p>
     <![endif]-->
 
-    <script>
-    $(function(){
-      $("#title-wrapper").load("header.html");
-    });
-    </script>
+    <?php include ("header.php"); ?>
     <div id="title-wrapper"></div>
 
     <div id="content-wrapper">
-      <div class="contact">
-        <a href="mailto:info@info@patriciamckenna.ie">info@patriciamckenna.ie</a>
+      <div class="text welcome-text">
+        <h2>BEACON</h2>
+        <p>Mixed media Installation, Newtown Castle, Burren College of Art, Ballyvaughan, County Clare, 2012.</p>
+        <div class="gallery">
+          <div class="thumb-container">
+            <a href="img/beacon_large1.jpg" class="swipebox">
+              <img src="img/Beacon_01.jpg" alt="">
+            </a>
+          </div>
+          <div class="thumb-container">
+            <a href="img/beacon_large2.jpg" class="swipebox">
+              <img src="img/Beacon_02.jpg" alt="">
+            </a>
+          </div>
+          <div class="thumb-container">
+            <a href="img/beacon_large3.jpg" class="swipebox">
+              <img src="img/Beacon_03.jpg" alt="">
+            </a>
+          </div>
+        </div>
       </div>
-
+      <div class="carousel-wrapper">
+        <div class="carousel">
+          <div class="image">
+            <img src="img/Beacon_01.jpg" alt="">
+          </div>
+          <div class="image">
+            <img src="img/Beacon_02.jpg" alt="">
+          </div>
+          <div class="image">
+            <img src="img/Beacon_03.jpg" alt="">
+          </div>
+        </div>
+      </div>
     </div>
     <footer>&copy; Patricia McKenna 2016/2017</footer>
 

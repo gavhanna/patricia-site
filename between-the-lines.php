@@ -27,46 +27,67 @@
     <p class="browserupgrade">You are using an <strong>outdated</strong> browser. Please <a href="http://browsehappy.com/">upgrade your browser</a> to improve your experience.</p>
     <![endif]-->
 
-    <script>
-    $(function(){
-      $("#title-wrapper").load("header.html");
-    });
-    </script>
+    <?php include ("header.php"); ?>
     <div id="title-wrapper"></div>
 
     <div id="content-wrapper">
       <div class="text welcome-text">
-        <h2>MY SPACE</h2>
-        <p>Group show curated project by Cecilia Moore commissioned by Breaking Ground, Civic Centre Ballymun.</p>
+        <h2>BETWEEN THE LINES</h2>
+        <p>Installation mixed - media Thisisnotashop Dublin.</p>
         <div class="gallery">
           <div class="thumb-container">
-            <a href="img/myspace1.jpg" class="swipebox">
-              <img src="img/myspace1.jpg" alt="">
+            <a href="img/between1.jpg" class="swipebox">
+              <img src="img/between1.jpg" alt="">
             </a>
           </div>
           <div class="thumb-container">
-            <a href="img/myspace2.jpg" class="swipebox">
-              <img src="img/myspace2.jpg" alt="">
+            <a href="img/between2.jpg" class="swipebox">
+              <img src="img/between2.jpg" alt="">
             </a>
           </div>
           <div class="thumb-container">
-            <a href="img/myspace3.jpg" class="swipebox">
-              <img src="img/myspace3.jpg" alt="">
+            <a href="img/between3.jpg" class="swipebox">
+              <img src="img/between3.jpg" alt="">
             </a>
           </div>
           <div class="thumb-container">
-            <a href="img/myspace4.jpg" class="swipebox">
-              <img src="img/myspace4.jpg" alt="">
+            <a href="img/between4.jpg" class="swipebox">
+              <img src="img/between4.jpg" alt="">
             </a>
           </div>
           <div class="thumb-container">
-            <a href="img/myspace5.jpg" class="swipebox">
-              <img src="img/myspace5.jpg" alt="">
+            <a href="img/between5.jpg" class="swipebox">
+              <img src="img/between5.jpg" alt="">
             </a>
           </div>
           <div class="thumb-container">
-            <a href="img/myspace6.jpg" class="swipebox">
-              <img src="img/myspace6.jpg" alt="">
+            <a href="img/between6.jpg" class="swipebox">
+              <img src="img/between6.jpg" alt="">
+            </a>
+          </div>
+          <div class="thumb-container">
+            <a href="img/between7.jpg" class="swipebox">
+              <img src="img/between7.jpg" alt="">
+            </a>
+          </div>
+          <div class="thumb-container">
+            <a href="img/between8.jpg" class="swipebox">
+              <img src="img/between8.jpg" alt="">
+            </a>
+          </div>
+          <div class="thumb-container">
+            <a href="img/between9.jpg" class="swipebox">
+              <img src="img/between9.jpg" alt="">
+            </a>
+          </div>
+          <div class="thumb-container">
+            <a href="img/between10.jpg" class="swipebox">
+              <img src="img/between10.jpg" alt="">
+            </a>
+          </div>
+          <div class="thumb-container">
+            <a href="img/between11.jpg" class="swipebox">
+              <img src="img/between11.jpg" alt="">
             </a>
           </div>
         </div>
@@ -74,22 +95,37 @@
       <div class="carousel-wrapper">
         <div class="carousel">
           <div class="image">
-            <img src="img/myspace1.jpg" alt="">
+            <img src="img/between1.jpg" alt="">
           </div>
           <div class="image">
-            <img src="img/myspace2.jpg" alt="">
+            <img src="img/between2.jpg" alt="">
           </div>
           <div class="image">
-            <img src="img/myspace3.jpg" alt="">
+            <img src="img/between3.jpg" alt="">
           </div>
           <div class="image">
-            <img src="img/myspace4.jpg" alt="">
+            <img src="img/between4.jpg" alt="">
           </div>
           <div class="image">
-            <img src="img/myspace5.jpg" alt="">
+            <img src="img/between5.jpg" alt="">
           </div>
           <div class="image">
-            <img src="img/myspace6.jpg" alt="">
+            <img src="img/between6.jpg" alt="">
+          </div>
+          <div class="image">
+            <img src="img/between7.jpg" alt="">
+          </div>
+          <div class="image">
+            <img src="img/between8.jpg" alt="">
+          </div>
+          <div class="image">
+            <img src="img/between9.jpg" alt="">
+          </div>
+          <div class="image">
+            <img src="img/between10.jpg" alt="">
+          </div>
+          <div class="image">
+            <img src="img/between11.jpg" alt="">
           </div>
         </div>
       </div>

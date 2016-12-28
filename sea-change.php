@@ -27,78 +27,73 @@
     <p class="browserupgrade">You are using an <strong>outdated</strong> browser. Please <a href="http://browsehappy.com/">upgrade your browser</a> to improve your experience.</p>
     <![endif]-->
 
-    <script>
-    $(function(){
-      $("#title-wrapper").load("header.html");
-    });
-    </script>
+    <?php include ("header.php"); ?>
     <div id="title-wrapper"></div>
 
     <div id="content-wrapper">
       <div class="text welcome-text">
-        <h2>JOURNEY</h2>
-        <p>Journey is a series of pieces exploring the forces and movements that shape us and help us understand our personal and cultural identity.<p>
-        <p>This is a continuation of the work done during the Soil project. "Journey", continuing from "Soil", questions the forces and movements that shape us and help us understand our personal and cultural identity.</p>
-        <p>The body of work "Journey" began in the Rockefeller Center in Bellagio in Italy when labelled soil from Ireland was placed there.</p>
+        <h2>SEA CHANGE</h2>
+        <p>Time-based piece consisting of 350 gelatine objects placed on Sandycove beach, County Dublin at low tide which dissolved and were washed away by the tide over a 12 hour period.<p>
+        <p>This process was documented and a video piece arising from the intervention was shown in IADT. This included both an indoor and outdoor large scale projection. This work was commissioned by Dun Laoghaire /Rathdown County Council as part of their Place & Identity per cent for art programme.</p>
         <div class="gallery">
           <div class="thumb-container">
-            <a href="img/journey1.jpg" class="swipebox">
-              <img src="img/journey1.jpg" alt="">
+            <a href="img/seachange1.jpg" class="swipebox">
+              <img src="img/seachange1.jpg" alt="">
             </a>
           </div>
           <div class="thumb-container">
-            <a href="img/journey2.jpg" class="swipebox">
-              <img src="img/journey2.jpg" alt="">
+            <a href="img/seachange2.jpg" class="swipebox">
+              <img src="img/seachange2.jpg" alt="">
             </a>
           </div>
           <div class="thumb-container">
-            <a href="img/journey3.jpg" class="swipebox">
-              <img src="img/journey3.jpg" alt="">
+            <a href="img/seachange3.jpg" class="swipebox">
+              <img src="img/seachange3.jpg" alt="">
             </a>
           </div>
           <div class="thumb-container">
-            <a href="img/journey4.jpg" class="swipebox">
-              <img src="img/journey4.jpg" alt="">
+            <a href="img/seachange4.jpg" class="swipebox">
+              <img src="img/seachange4.jpg" alt="">
             </a>
           </div>
           <div class="thumb-container">
-            <a href="img/journey5.jpg" class="swipebox">
-              <img src="img/journey5.jpg" alt="">
+            <a href="img/seachange5.jpg" class="swipebox">
+              <img src="img/seachange5.jpg" alt="">
             </a>
           </div>
           <div class="thumb-container">
-            <a href="img/journey6.jpg" class="swipebox">
-              <img src="img/journey6.jpg" alt="">
+            <a href="img/seachange6.jpg" class="swipebox">
+              <img src="img/seachange6.jpg" alt="">
             </a>
           </div>
           <div class="thumb-container">
-            <a href="img/journey7.jpg" class="swipebox">
-              <img src="img/journey7.jpg" alt="">
+            <a href="img/seachange7.jpg" class="swipebox">
+              <img src="img/seachange7.jpg" alt="">
             </a>
           </div>
           <div class="thumb-container">
-            <a href="img/journey8.jpg" class="swipebox">
-              <img src="img/journey8.jpg" alt="">
+            <a href="img/seachange8.jpg" class="swipebox">
+              <img src="img/seachange8.jpg" alt="">
             </a>
           </div>
           <div class="thumb-container">
-            <a href="img/journey9.jpg" class="swipebox">
-              <img src="img/journey9.jpg" alt="">
+            <a href="img/seachange9.jpg" class="swipebox">
+              <img src="img/seachange9.jpg" alt="">
             </a>
           </div>
           <div class="thumb-container">
-            <a href="img/journey10.jpg" class="swipebox">
-              <img src="img/journey10.jpg" alt="">
+            <a href="img/seachange10.jpg" class="swipebox">
+              <img src="img/seachange10.jpg" alt="">
             </a>
           </div>
           <div class="thumb-container">
-            <a href="img/journey11.jpg" class="swipebox">
-              <img src="img/journey11.jpg" alt="">
+            <a href="img/seachange11.jpg" class="swipebox">
+              <img src="img/seachange11.jpg" alt="">
             </a>
           </div>
           <div class="thumb-container">
-            <a href="img/journey12.jpg" class="swipebox">
-              <img src="img/journey12.jpg" alt="">
+            <a href="img/seachange12.jpg" class="swipebox">
+              <img src="img/seachange12.jpg" alt="">
             </a>
           </div>
         </div>
@@ -106,40 +101,40 @@
       <div class="carousel-wrapper">
         <div class="carousel">
           <div class="image">
-            <img src="img/journey1.jpg" alt="">
+            <img src="img/seachange1.jpg" alt="">
           </div>
           <div class="image">
-            <img src="img/journey2.jpg" alt="">
+            <img src="img/seachange2.jpg" alt="">
           </div>
           <div class="image">
-            <img src="img/journey3.jpg" alt="">
+            <img src="img/seachange3.jpg" alt="">
           </div>
           <div class="image">
-            <img src="img/journey4.jpg" alt="">
+            <img src="img/seachange4.jpg" alt="">
           </div>
           <div class="image">
-            <img src="img/journey5.jpg" alt="">
+            <img src="img/seachange5.jpg" alt="">
           </div>
           <div class="image">
-            <img src="img/journey6.jpg" alt="">
+            <img src="img/seachange6.jpg" alt="">
           </div>
           <div class="image">
-            <img src="img/journey7.jpg" alt="">
+            <img src="img/seachange7.jpg" alt="">
           </div>
           <div class="image">
-            <img src="img/journey8.jpg" alt="">
+            <img src="img/seachange8.jpg" alt="">
           </div>
           <div class="image">
-            <img src="img/journey9.jpg" alt="">
+            <img src="img/seachange9.jpg" alt="">
           </div>
           <div class="image">
-            <img src="img/journey10.jpg" alt="">
+            <img src="img/seachange10.jpg" alt="">
           </div>
           <div class="image">
-            <img src="img/journey11.jpg" alt="">
+            <img src="img/seachange11.jpg" alt="">
           </div>
           <div class="image">
-            <img src="img/journey12.jpg" alt="">
+            <img src="img/seachange12.jpg" alt="">
           </div>
         </div>
       </div>

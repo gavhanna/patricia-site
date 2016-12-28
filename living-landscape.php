@@ -27,31 +27,67 @@
     <p class="browserupgrade">You are using an <strong>outdated</strong> browser. Please <a href="http://browsehappy.com/">upgrade your browser</a> to improve your experience.</p>
     <![endif]-->
 
-    <script>
-    $(function(){
-      $("#title-wrapper").load("header.html");
-    });
-    </script>
+    <?php include ("header.php"); ?>
     <div id="title-wrapper"></div>
 
     <div id="content-wrapper">
       <div class="text welcome-text">
-        <h2>OUT OF THE BLUE</h2>
-        <p>Mixed media RHA, 2016.</p>
+        <h2>LIVING LANDSCAPE</h2>
+        <p>Ireland and Catalunya - Spain Exhibition and Symposium. West Cork Arts Centre, and artist residency West Cork.</p>
         <div class="gallery">
           <div class="thumb-container">
-            <a href="img/outoftheblue.jpg" class="swipebox">
-              <img src="img/outoftheblue.jpg" alt="">
+            <a href="img/lyinglandscape1.jpg" class="swipebox">
+              <img src="img/lyinglandscape1.jpg" alt="">
+            </a>
+          </div>
+          <div class="thumb-container">
+            <a href="img/lyinglandscape2.jpg" class="swipebox">
+              <img src="img/lyinglandscape2.jpg" alt="">
+            </a>
+          </div>
+          <div class="thumb-container">
+            <a href="img/lyinglandscape3.jpg" class="swipebox">
+              <img src="img/lyinglandscape3.jpg" alt="">
+            </a>
+          </div>
+          <div class="thumb-container">
+            <a href="img/lyinglandscape4.jpg" class="swipebox">
+              <img src="img/lyinglandscape4.jpg" alt="">
+            </a>
+          </div>
+          <div class="thumb-container">
+            <a href="img/lyinglandscape5.jpg" class="swipebox">
+              <img src="img/lyinglandscape5.jpg" alt="">
+            </a>
+          </div>
+          <div class="thumb-container">
+            <a href="img/lyinglandscape6.jpg" class="swipebox">
+              <img src="img/lyinglandscape6.jpg" alt="">
             </a>
           </div>
         </div>
       </div>
       <div class="carousel-wrapper">
-        <!-- <div class="carousel">
+        <div class="carousel">
           <div class="image">
-            <img src="img/outoftheblue.jpg" alt="">
+            <img src="img/lyinglandscape1.jpg" alt="">
           </div>
-        </div> -->
+          <div class="image">
+            <img src="img/lyinglandscape2.jpg" alt="">
+          </div>
+          <div class="image">
+            <img src="img/lyinglandscape3.jpg" alt="">
+          </div>
+          <div class="image">
+            <img src="img/lyinglandscape4.jpg" alt="">
+          </div>
+          <div class="image">
+            <img src="img/lyinglandscape5.jpg" alt="">
+          </div>
+          <div class="image">
+            <img src="img/lyinglandscape6.jpg" alt="">
+          </div>
+        </div>
       </div>
     </div>
     <footer>&copy; Patricia McKenna 2016/2017</footer>
