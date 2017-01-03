@@ -51,7 +51,7 @@
           </li>
         </ul>
       </li>
-      <li class="dropdown">NEW YORK
+      <li class="dropdown">NEW WORK
         <span class="arrow">&darr;</span>
         <ul class="dropdown-menu">
           <li class="nav-item"><a href="take-hold.php">Take Hold</a></li>
