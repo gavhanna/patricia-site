@@ -56,7 +56,7 @@
       </li>
       <li class="dropdown nav-item">
         <div class="">
-          NEW WORK
+          New York
           <!-- <span class="arrow">&darr;</span> -->
         </div>
         <ul class="dropdown-menu">

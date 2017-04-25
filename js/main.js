@@ -10,10 +10,10 @@
 		$(".navigation").toggleClass("open");
 	});
 
-	$(".nav-item").on("click", function(){
-		$(".navigation").toggleClass("open");
-		$("#dropdown-button").toggleClass("become-x");
-	});
+	// $(".nav-item").on("click", function(){
+	// 	$(".navigation").toggleClass("open");
+	// 	$("#dropdown-button").toggleClass("become-x");
+	// });
 
   $(".carousel").slick({
     autoplay: true,

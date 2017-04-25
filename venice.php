@@ -38,10 +38,14 @@
         <p>I will post images of the finished work before the official opening on May 11<sup>th</sup>/12<sup>th</sup>.</p>
         <p>There will be a catalogue of the exhibition issued by the GAA Foundation.</p>
         <p>Personal Structures has been running since 2002 in the Venice Biennale. More information on the past projects including a virtual tour of the spaces can be seen on their website.</p>
-        <p><a id="gaa-link" href="http://www.gaafoundation.org">www.gaafoundation.org</a></p>
+        <p><a class="content-link" target="_blank" href="http://www.gaafoundation.org">www.gaafoundation.org</a></p>
+        <p><a class="content-link" target="_blank" href="img/venice-personal-structures.pdf">Further information (pdf)</a></p>
+        <p style="font-size: 13px;"><em>Golden Boat</em> image by Mark Boland.</p>
+
+
         <div class="gallery">
           <div class="thumb-container">
-            <a href="img/venice1.jpg" class="swipebox">
+            <a href="img/venice1.jpg" class="swipebox" title="Golden Boat by Mark Boland">
               <img src="img/venice1.jpg" alt="">
             </a>
           </div>
@@ -60,6 +64,26 @@
               <img src="img/venice4.jpg" alt="">
             </a>
           </div>
+          <div class="thumb-container">
+            <a href="img/venice5.jpg" class="swipebox" title="Golden Boat by Mark Boland">
+              <img src="img/venice5.jpg" alt="">
+            </a>
+          </div>
+          <div class="thumb-container">
+            <a href="img/venice6.jpg" class="swipebox">
+              <img src="img/venice6.jpg" alt="">
+            </a>
+          </div>
+          <div class="thumb-container">
+            <a href="img/venice7.jpg" class="swipebox">
+              <img src="img/venice7.jpg" alt="">
+            </a>
+          </div>
+          <div class="thumb-container">
+            <a href="img/venice8.jpg" class="swipebox">
+              <img src="img/venice8.jpg" alt="">
+            </a>
+          </div>
         </div>
       </div>
       <div class="carousel-wrapper">
@@ -75,6 +99,18 @@
           </div>
           <div class="image">
             <img src="img/venice4.jpg" alt="">
+          </div>
+          <div class="image">
+            <img src="img/venice5.jpg" alt="">
+          </div>
+          <div class="image">
+            <img src="img/venice6.jpg" alt="">
+          </div>
+          <div class="image">
+            <img src="img/venice7.jpg" alt="">
+          </div>
+          <div class="image">
+            <img src="img/venice8.jpg" alt="">
           </div>
         </div>
       </div>

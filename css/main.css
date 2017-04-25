@@ -1207,6 +1207,13 @@ nav ul {
           flex-direction: column;
 }
 
-#gaa-link {
-  color: #666;
+.content-link {
+  color: #666; !important
+  -webkit-transition: all .2s ease-in-out;
+  -webkit-transition: all .2s ease-in-out;
+  transition: all .2s ease-in-out;
+}
+
+.content-link:hover {
+  color: #333; !important
 }
